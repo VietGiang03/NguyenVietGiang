@@ -1,0 +1,103 @@
+/* Đặt font và màu nền tổng thể */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3a1c71, #d76d77, #ffaf7b);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+/* Container chính */
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Avatar */
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+/* Tên và giới thiệu */
+h1 {
+    font-size: 1.8em;
+    margin: 10px 0;
+    color: #ffd700;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #fff;
+}
+
+/* Liên kết mạng xã hội */
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 12px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffd700;
+    border: 2px solid #ffd700;
+    border-radius: 25px;
+    background: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    background: #ffd700;
+    color: #3a1c71;
+    box-shadow: 0px 4px 15px rgba(255, 223, 0, 0.5);
+}
+
+/* Hiệu ứng footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+}
