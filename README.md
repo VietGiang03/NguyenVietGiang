@@ -1,3 +1,8 @@
+git add README.md
+git commit -m "Add custom bio for GitHub"
+git push origin main
+
+
 # 👋 Hello! I'm [Nguyễn Viết Giang]  
 Welcome to my GitHub profile! 🌟 Here's a bit about me:  
 
